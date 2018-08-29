@@ -1,11 +1,22 @@
-# ETACHAIN - THE MOST POWERFUL INFRASTRUCTURE FOR DECENTRALIZED APPLICATIONS
+# ETACHAIN - CROSS-BORDER BRIDGE CHAIN + AI ARTIFICIAL INTELLIGENCE + BIG DATA
 
-[![BUILD STATUS](
+[Build status]
 
-WELCOME TO THE ETACHAIN SOURCE CODE REPOSITORY! AS THE BOTTOM INFRASTRUCTURE OF THE BLOCK CHAIN, THE ETHERIC STAR CHAIN IS DESIGNED AS A BRIDGE LINKING DIFFERENT BLOCK CHAIN NETWORKS, WHICH CAN DIRECTLY CONVERT ETH DIGITAL ASSETS INTO OTHER DIGITAL CURRENCIES UNDER OTHER ETH SIDE CHAINS。
+## 1.1 ETA Chain
+As the underlying infrastructure of the blockchain, the etherstar chain is designed as a bridge linking different blockchain networks, which can directly convert ETH digital assets into other digital currencies under other ETH sidechains. Open links between blocks to bridge the transition between blockchains.
 
-ETACHAIN IS A GLOBAL CROSS-LINKED PROJECT JOINTLY SPONSORED BY SENIOR DEVELOPERS OF BLOCK CHAINS IN HONG KONG, SOUTH KOREA, BRITAIN, CANADA AND OTHER COUNTRIES AND REGIONS.
+## 1.2 ETA
+Etherstar is a global cross-connect project initiated by senior developers of blockchains in Hong Kong, South Korea, the United Kingdom, Canada and other countries and regions. It has ultra-high performance and can realize low cost and low latency on different blockchain networks. The exchange of value, the cost of the cross-chain assets is faster than the exchange.
 
-THE ETACHAIN I TO DEVOTE ITSTE ITSELF TO DEVOTE ITSELF TO DEVOTE ITSELF TO DEVOTE ITSELF TO DEVOTE ITSELF TO DEVOTE ITSELF VOTE ITSELF TO DEVOTE ITSELF TO DEVOTE ITSELF TO DEVOTE ITSELF TO DEVOTE 
+## 1.3 Technology
+Ether Star is a separate underlying public chain developed using the latest blockchain 3.0 technology to build a new artificial intelligence application based on the DPOS+POW consensus mechanism. EOS.IO graphene technology and virtual machine implementation contract, the first use of secure multi-party computing and threshold key sharing technology to achieve secure cross-chain transactions.
 
-THE ETACHAIN FOUNDING TEAM IS A GLOBAL CROSS-CHAIN PROJECT JOINTLY SPONSORED BY SENIOR DEVELOPERS FROM VARIOUS COUNTRIES AND REGIONS.
+## 1.4 Team
+The ETA Chain Founding Team is comprised of the world's leading experts and is a global cross-chain project initiated by senior developers of blockchains in various countries and regions.
+
+## 2. Technical Characteristics
+1. decentralization
+2. can not be modified
+3. artificial intelligence
+4. consensus mechanism
+5. super high performance
