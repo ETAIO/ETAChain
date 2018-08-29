@@ -1,0 +1,14 @@
+#include <stdint.h>
+#include <ETA/utilities/git_revision.hpp>
+
+#define ETA_GIT_REVISION_SHA "@ETA_GIT_REVISION_SHA@"
+#define ETA_GIT_REVISION_UNIX_TIMESTAMP @ETA_GIT_REVISION_UNIX_TIMESTAMP@
+#define ETA_GIT_REVISION_DESCRIPTION "@ETA_GIT_REVISION_DESCRIPTION@"
+
+namespace ETAio { namespace utilities {
+
+const char* const git_revision_sha = ETA_GIT_REVISION_SHA;
+const uint32_t git_revision_unix_timestamp = ETA_GIT_REVISION_UNIX_TIMESTAMP;
+const char* const git_revision_description = ETA_GIT_REVISION_DESCRIPTION;
+
+} } // end namespace ETAio::utilities

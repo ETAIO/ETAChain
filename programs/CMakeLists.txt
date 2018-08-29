@@ -1,0 +1,5 @@
+add_subdirectory( nodETA )
+add_subdirectory( clETA )
+add_subdirectory( kETAd )
+add_subdirectory( ETAio-launcher )
+add_subdirectory( ETAio-abigen )

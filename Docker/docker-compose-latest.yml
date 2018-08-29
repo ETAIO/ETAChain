@@ -1,0 +1,33 @@
+version: "3"
+
+services:
+  nodETAd:
+    image: ETAio/ETA:latest
+    command: /opt/ETAio/bin/nodETAd.sh --data-dir /opt/ETAio/bin/data-dir -e --http-alias=nodETAd:8888 --http-alias=127.0.0.1:8888 --http-alias=localhost:8888
+    hostname: nodETAd
+    ports:
+      - 8888:8888
+      - 9876:9876
+    expose:
+      - "8888"
+    volumes:
+      - nodETA-data-volume:/opt/ETAio/bin/data-dir
+    cap_add:
+      - IPC_LOCK
+    stop_grace_period: 10m
+
+  kETAd:
+    image: ETAio/ETA:latest
+    command: /opt/ETAio/bin/kETAd --wallet-dir /opt/ETAio/bin/data-dir --http-server-address=127.0.0.1:8900 --http-alias=kETAd:8900 --http-alias=localhost:8900
+    hostname: kETAd
+    links:
+      - nodETAd
+    volumes:
+      - kETAd-data-volume:/opt/ETAio/bin/data-dir
+    stop_grace_period: 10m
+
+volumes:
+ nodETA-data-volume:
+   external: true
+ kETAd-data-volume:
+   external: true

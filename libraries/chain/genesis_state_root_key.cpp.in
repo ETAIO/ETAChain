@@ -1,0 +1,12 @@
+/**
+ *  @file
+ *  @copyright defined in ETA/LICENSE.txt
+ */
+
+#include <ETAio/chain/genesis_state.hpp>
+
+namespace ETAio { namespace chain {
+
+const string genesis_state::ETAio_root_key = "${ETAIO_ROOT_KEY}";
+
+} } // namespace ETAio::chain
